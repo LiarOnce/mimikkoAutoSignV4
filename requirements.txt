@@ -1,4 +1,6 @@
+apscheduler
 grpcio
 grpcio-tools
-pyyaml
-apscheduler
+protobuf
+pytz
+PyYAML
