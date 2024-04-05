@@ -71,7 +71,7 @@
 
 如果使用青龙面板管理脚本，请进行以下操作：
 
-1. 在依赖管理界面安装以下 Python 依赖：
+1. 在依赖管理界面安装以下 Python 依赖 (注意选择自动拆分)：
 
 ```
 apscheduler grpcio grpcio-tools protobuf pytz PyYAML

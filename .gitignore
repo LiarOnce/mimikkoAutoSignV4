@@ -10,6 +10,7 @@ main_test.py
 venv
 api4_mimikko_cn.cer
 *.log
+venv
 
 
 *.proto

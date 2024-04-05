@@ -51,10 +51,13 @@ from task.task_activity_sign import task_activity_sign
 from task.task_update_character_json import task_update_character_json
 
 # log信息配置
+# 这里创建目录的代码并没有被执行，原因不明
 base_path = os.path.dirname(os.path.abspath(__file__))
 if not os.path.exists(base_path + "/log"):
+    print(base_path)
     os.makedirs(f"{base_path}/log", mode=777)
     os.system(f"chmod 777 {base_path}/log")
+
 # 启动参数设置
 if len(sys.argv) == 3:
     device_id = sys.argv[1]
